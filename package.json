@@ -1,0 +1,20 @@
+{
+  "name": "human-detection-system",
+  "version": "1.0.0",
+  "description": "Human detection system with IP cameras and relay control",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs-node": "^4.10.0",
+    "node-opencv": "^0.0.2-security",
+    "onoff": "^6.0.3",
+    "rtsp-ffmpeg": "^0.0.17"
+  },
+  "devDependencies": {
+    "jest": "^29.6.2"
+  }
+}
